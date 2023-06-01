@@ -1,5 +1,10 @@
-create a sudoku puzzle generator using python.
-save your code in a file using the .py file extension.
-make sure generated puzzles are valid sudoku puzzles and are solvable.
-save the generted puzzles as valid machine-readle JSON files in your workspace. use the .json file extension.
-after you have generated a valid sudoku puzzle and saved the puzzle as a JSON file, write a sudoku solver algorithm in python.
+create a detailed white paper on how to use scopes with jwt on first party and third party apps
+Create the whitepaper in mardown format and save it in the workspace
+Keep making adjustments as you do more research on jwt scopes
+Need to cover sample usecases of using scopes and claims
+Need to cover with a usecase the usage of scopes in a swagger document
+Need to brief about authorisation and applicability of scopes in Domain Driven design
+Need to capture best practices for planning scopes in large organisations
+Need to capture with a code example in python, how to enforce scopes in API's
+Need to capture with an illustration in mermaid how scopes will pass down through multiple api's
+save the white paper as valid markdown files in your workspace. use the .md file extension.

@@ -1,0 +1,29 @@
+create a identity provider stub that can be used as a identity provider.
+The stub should be a fully executable python application
+Use flask to build the python application
+The stub should be able to handle the following requests:
+- GET /.well-known/openid-configuration
+- GET /protocol/openid-connect/certs
+- POST /protocol/openid-connect/token
+- POST /protocol/openid-connect/userinfo
+- POST /protocol/openid-connect/introspect
+- POST /protocol/openid-connect/register
+- GET /protocol/openid-connect/register
+- GET /protocol/openid-connect/logout
+- POST /protocol/openid-connect/logout
+- GET /protocol/openid-connect/auth
+- POST /protocol/openid-connect/auth
+- GET /protocol/openid-connect/token/introspect
+- GET /protocol/openid-connect/token/revoke
+
+The stub should also support client credentials grant type flow as well
+Separate the main class with the controllers and app initiation from the implementation and other classes
+Create separate classes for 
+    - certificate repository
+    - client credential jwt requester
+    - jwt builder
+Create a requirements.txt for the python application
+Write unit and acceptance tests for the application
+Execute and validate the python application on the local workspace without using a container
+
+

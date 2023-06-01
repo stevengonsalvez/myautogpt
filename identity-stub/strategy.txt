@@ -1,0 +1,4 @@
+1. always keep saving your work
+2. try to write small pieces of code and run tests on them 
+3. try to write comments for each line of code
+4. try to modularise the code so that there are no big classes

@@ -5,9 +5,8 @@
 
 ## Usage: ./link.sh <folder_name>
 
-## e.g. ./link.sh ~/d/git/Auto-GPT/aut_gpt_workspace
-
 folder=$1
+source_dir=`pwd`
 if [ -z "$folder" ]; then
     echo "No folder specified"
     exit 1
@@ -22,6 +21,6 @@ for each in "$folder"/*; do
     if [ "${each##*/}" = "ai_settings.yaml" ]; then
         continue
     else
-        ln -s "$each" ~/d/git/Auto-GPT/auto_gpt_workspace/"${each##*/}"
+        ln -s "${source_dir}/${each}" ~/d/git/Auto-GPT/autogpt/auto_gpt_workspace/"${each##*/}"
     fi
 done
